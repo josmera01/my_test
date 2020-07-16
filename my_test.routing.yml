@@ -1,0 +1,17 @@
+my_test.created_my_user_add:
+  path: '/my_test/form/created_my_user'
+  defaults:
+    _form: '\Drupal\my_test\Form\CreatedMyUserForm'
+    _title: 'Created My User Form'
+  requirements:
+    _permission: 'admin create my test'
+
+my_test.views_my_test_controller_get:
+  path: '/my_test/view'
+  defaults:
+    _controller: '\Drupal\my_test\Controller\ViewsMyTestController::get'
+    _title: 'View My user'
+  requirements:
+    _permission: 'admin views my test'
+
+

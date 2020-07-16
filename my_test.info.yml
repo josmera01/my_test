@@ -1,0 +1,5 @@
+name: 'my test'
+type: module
+description: 'My test'
+core: 8.x
+package: 'Custom'

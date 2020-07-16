@@ -1,0 +1,5 @@
+admin create my test:
+  title: 'Administer created my test'
+
+admin views my test:
+  title: 'Administer views my test'

@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Contains install and update functions for my test.
+ */
+
+ /**
+  * Implementation hook_install()
+  */
+function my_test_install() {
+  // Name table.
+  $table = 'myusers';
+  // Fields.
+  $schema = [
+    'fields' => [
+      'id' => ['type' => 'serial', 'not null' => TRUE],
+      'name' => ['type' => 'varchar', 'length' => 255, 'not null' => TRUE],
+    ],
+    'primary key' => ['id'],
+  ];
+  // Create table and fields.
+  \Drupal::database()->schema()->createTable($table, $schema);
+  print_r('1');
+}

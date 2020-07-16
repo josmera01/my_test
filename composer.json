@@ -1,0 +1,13 @@
+{
+    "name": "my_test",
+    "type": "drupal-module",
+    "description": "My test",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/my_test",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/my_test",
+        "source": "http://cgit.drupalcode.org/my_test",
+    },
+}
